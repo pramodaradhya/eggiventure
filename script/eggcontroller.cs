@@ -33,9 +33,13 @@ public class eggcontroller : MonoBehaviour
     {
        
         float dirx = Input.GetAxis("Horizontal");
-        if (dirx >=1||dirx<=-1)
+        if (dirx >=1)
         {
             float degree = -12;
+            gameObject.transform.Rotate(0, 0, degree, Space.Self);
+        }else if(dirx <= -1)
+        {
+            float degree = 12;
             gameObject.transform.Rotate(0, 0, degree, Space.Self);
         }
             
