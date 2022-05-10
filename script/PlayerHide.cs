@@ -21,11 +21,11 @@ public class PlayerHide : MonoBehaviour
         if (Input.GetKey(KeyCode.H))
         {
             hiding = true;
-            Physics2D.IgnoreLayerCollision(0, 1, true);
+            Physics2D.IgnoreLayerCollision(8, 9, true);
             rend.sortingOrder = 0;
         }else
         {
-            Physics2D.IgnoreLayerCollision(0, 1, false);
+            Physics2D.IgnoreLayerCollision(8, 9, false);
             rend.sortingOrder = 1;
             hiding = false;
         }

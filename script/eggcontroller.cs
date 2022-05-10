@@ -42,8 +42,6 @@ public class eggcontroller : MonoBehaviour
             float degree = 12;
             gameObject.transform.Rotate(0, 0, degree, Space.Self);
         }
-            
-        
         rb.velocity = new Vector2(dirx * 6f, rb.velocity.y);
        
 
