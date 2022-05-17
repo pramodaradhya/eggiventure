@@ -1,0 +1,289 @@
+fileFormatVersion: 2
+guid: d0b17c8676043374a86e4e4d6884851e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4954059119055830327
+    second: Cave - Floor_0
+  - first:
+      213: 305323394930079794
+    second: Cave - Floor_1
+  - first:
+      213: 1794018694089678626
+    second: Cave - Floor_2
+  - first:
+      213: 1179303002122093151
+    second: Cave - Floor_3
+  - first:
+      213: 4700242041578537017
+    second: Cave - Floor_4
+  - first:
+      213: -4080822399073288140
+    second: Cave - Floor_5
+  - first:
+      213: -7687895644184475551
+    second: Cave - Floor_6
+  - first:
+      213: 8486903552968967867
+    second: Cave - Floor_7
+  - first:
+      213: -6660941966638641390
+    second: Cave - Floor_8
+  - first:
+      213: -6585092860835429821
+    second: Cave - Floor_9
+  - first:
+      213: 2253390746199645448
+    second: Cave - Floor_10
+  - first:
+      213: 8290354444149308812
+    second: Cave - Floor_11
+  - first:
+      213: 5243525934409782094
+    second: Cave - Floor_12
+  - first:
+      213: 4208575700174809024
+    second: Cave - Floor_13
+  - first:
+      213: 6481747363905849689
+    second: Cave - Floor_14
+  - first:
+      213: -3168780747585794531
+    second: Cave - Floor_15
+  - first:
+      213: -2774719256891474645
+    second: Cave - Floor_16
+  - first:
+      213: 8725424019370956628
+    second: Cave - Floor_17
+  - first:
+      213: -7484202232688903726
+    second: Cave - Floor_18
+  - first:
+      213: 5043568289773601922
+    second: Cave - Floor_19
+  - first:
+      213: -861606704630974907
+    second: Cave - Floor_20
+  - first:
+      213: 8819954364823568428
+    second: Cave - Floor_21
+  - first:
+      213: -5612745519100525313
+    second: Cave - Floor_22
+  - first:
+      213: 1970606933979382678
+    second: Cave - Floor_23
+  - first:
+      213: 2889508841440921494
+    second: Cave - Floor_24
+  - first:
+      213: -6075913838774904605
+    second: Cave - Floor_25
+  - first:
+      213: -2206850800253496331
+    second: Cave - Floor_26
+  - first:
+      213: -7064018885648745960
+    second: Cave - Floor_27
+  - first:
+      213: -8004295115407405746
+    second: Cave - Floor_28
+  - first:
+      213: -9042850623494825292
+    second: Cave - Floor_29
+  - first:
+      213: -5776052373140334885
+    second: Cave - Floor_30
+  - first:
+      213: -8761847526956537981
+    second: Cave - Floor_31
+  - first:
+      213: 3109284843082860403
+    second: Cave - Floor_32
+  - first:
+      213: -9167525577938995999
+    second: Cave - Floor_33
+  - first:
+      213: -2565396467207310546
+    second: Cave - Floor_34
+  - first:
+      213: -7206426484230259895
+    second: Cave - Floor_35
+  - first:
+      213: -7431000831895199312
+    second: Cave - Floor_36
+  - first:
+      213: 8902070769648660140
+    second: Cave - Floor_37
+  - first:
+      213: -5135034348196175910
+    second: Cave - Floor_38
+  - first:
+      213: 5043164722072761952
+    second: Cave - Floor_39
+  - first:
+      213: 4171357331430511305
+    second: Cave - Floor_40
+  - first:
+      213: -7188890198986984353
+    second: Cave - Floor_41
+  - first:
+      213: 312979629604195313
+    second: Cave - Floor_42
+  - first:
+      213: 6075268180786504492
+    second: Cave - Floor_43
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Cave - Floor_0
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 1016
+        width: 1578
+        height: 259
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd10148d9b4dc8547b88146e42f46b99
+      internalID: -4954059119055830327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave - Floor_1
+      rect:
+        serializedVersion: 2
+        x: 1506
+        y: 0
+        width: 542
+        height: 972
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 984ed5b82e93b874682b7a2e1c229325
+      internalID: 305323394930079794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
