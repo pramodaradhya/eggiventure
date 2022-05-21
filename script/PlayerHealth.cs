@@ -8,18 +8,23 @@ public class PlayerHealth : MonoBehaviour
 {
     public int health ;
     public int numofhearts;
+    
     //public int eggheart;
 
     public Image[] hearts;
     public Sprite fullHearts;
     public Sprite emptyHearts;
-
+    public PlaySound playSound;
+    //public eggcontroller eggcontroller;
+    public GameOverController gameOverController;
     
     void Update()
     {
         Updatehealth();
     }
-    public void Updatehealth()
+
+
+    public  void Updatehealth()
     {
         if(health >numofhearts)
         {
@@ -28,6 +33,7 @@ public class PlayerHealth : MonoBehaviour
         if(health <=0)
         {
             eggcontroller.PlayerDeathAnimation();
+           
         }
         for (int i = 0; i < hearts.Length; i++)
         {
@@ -51,13 +57,10 @@ public class PlayerHealth : MonoBehaviour
 
     internal void TakeDamage(int attackDamage)
     {
-       // eggheart = numofhearts;
-
+        // eggheart = numofhearts;
+        
         int takedamage = health - attackDamage;
-
-        if(health == 0)
-        {
-            Debug.Log("player died");
-        }
+        playSound.Play(0);
     }
+
 }

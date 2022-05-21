@@ -9,8 +9,8 @@ public class EnemyController : MonoBehaviour
         if(collision.gameObject.GetComponent<eggcontroller>() !=null)
         {
             eggcontroller eggController = collision.gameObject.GetComponent<eggcontroller>();
-            eggController.KillPlayer();
-
+              eggController.KillPlayer();
+            
         }
     }
 

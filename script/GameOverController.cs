@@ -8,38 +8,39 @@ public class GameOverController : MonoBehaviour
 {
     public Button buttonRestart;
     public Button buttonExit;
-    public bool gameHasEnded = false;
-    public float restartDelay = 255555f;
-
+    public PlaySound playSound;
+    //public PlayerHealth playerHealth;
     private void Awake()
     {
+        
         if (GameObject.FindWithTag("RestartButton"))
         {
             buttonRestart.onClick.AddListener(RestartLevel);
         }
-     /*   if (GameObject.FindWithTag("ExitButton"))
+        if (GameObject.FindWithTag("ExitButton"))
         {
 
             buttonExit.onClick.AddListener(ExitLevel);
         }
-*/
     }
 
-    public void EndGame()
-    {
-        //if(gameHasEnded == false)
-        //{
-        //gameHasEnded == true;
-        Invoke("PlayerDied", restartDelay);
-        //}
-    }
+  
     public void PlayerDied()
     {
         gameObject.SetActive(true);
+
+
     }
+    
     public void RestartLevel() //Restarts the level
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        
+        // SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        //gameObject.SetActive(true);
+        
+            SceneManager.LoadScene(0);
+        
+        
     }
 
     public void ExitLevel() //Restarts the level
