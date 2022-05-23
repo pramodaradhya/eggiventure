@@ -26,25 +26,32 @@ public class eggcontroller : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
     }
 
-    internal void KillPlayer()
+    public void KillPlayer()
     {
+        
         
         playSound.Play(0);
         //Debug.Log("player killed by enemy");
         playerHealth.health = playerHealth.health - boss_Attack.attackDamage;
         playerHealth.Updatehealth();
-        
-           gameOverController.PlayerDied();
-        this.enabled = false;
-        
+
+        if (playerHealth.health <= 0 )
+        {
+            gameOverController.PlayerDied();
+        }
+
+       // this.enabled = false;
+
 
     }
   
 
-    internal static void PlayerDeathAnimation()
+    internal static  void PlayerDeathAnimation()
     {
-       // gameOverController.PlayerDied();
+        // gameOverController.PlayerDied();
         //playSound.Play(1);
+        
+        
         Debug.Log("player killed by enemy");
         //GameOverController.RestartLevel();
       //  SceneManager.LoadScene(0);
@@ -58,7 +65,8 @@ public class eggcontroller : MonoBehaviour
     private void Update()
     {
         
-            
+            if(playerHealth.health > 0)
+        {
             float dirx = Input.GetAxis("Horizontal");
 
             if (dirx >= 1)
@@ -74,17 +82,19 @@ public class eggcontroller : MonoBehaviour
                 gameObject.transform.Rotate(0, 0, degree, Space.Self);
             }
             rb.velocity = new Vector2(dirx * _speedx, rb.velocity.y);
-        
 
-        if (Input.GetButtonDown("Jump"))
-        {
-            playSound.Play(1);
-            rb.velocity = new Vector2(rb.velocity.x, _speedy);
+
+            if (Input.GetButtonDown("Jump"))
+            {
+                playSound.Play(1);
+                rb.velocity = new Vector2(rb.velocity.x, _speedy);
+            }
         }
-     //  transform.position = new Vector3(player.position.x + offset.x, player.position.y + offset.y, offset.z); // Camera follows the player with specified offset position
+
+        //  transform.position = new Vector3(player.position.x + offset.x, player.position.y + offset.y, offset.z); // Camera follows the player with specified offset position
 
     }
-
+    
 
 }
 

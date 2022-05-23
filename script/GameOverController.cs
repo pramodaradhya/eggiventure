@@ -9,6 +9,8 @@ public class GameOverController : MonoBehaviour
     public Button buttonRestart;
     public Button buttonExit;
     public PlaySound playSound;
+    
+    
     //public PlayerHealth playerHealth;
     private void Awake()
     {
@@ -34,13 +36,7 @@ public class GameOverController : MonoBehaviour
     
     public void RestartLevel() //Restarts the level
     {
-        
-        // SceneManager.LoadScene(SceneManager.GetActiveScene().name);
-        //gameObject.SetActive(true);
-        
-            SceneManager.LoadScene(0);
-        
-        
+        SceneManager.LoadScene(0);
     }
 
     public void ExitLevel() //Restarts the level

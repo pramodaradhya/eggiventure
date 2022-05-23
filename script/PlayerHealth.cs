@@ -16,7 +16,7 @@ public class PlayerHealth : MonoBehaviour
     public Sprite emptyHearts;
     public PlaySound playSound;
     //public eggcontroller eggcontroller;
-    public GameOverController gameOverController;
+    //public GameOverController gameOverController;
     
     void Update()
     {
@@ -26,15 +26,16 @@ public class PlayerHealth : MonoBehaviour
 
     public  void Updatehealth()
     {
-        if(health >numofhearts)
+        if (health <= 0)
+        {
+            eggcontroller.PlayerDeathAnimation();
+            //gameObject.SetActive(true);
+        }
+        if (health >numofhearts)
         {
             health = numofhearts;
         }
-        if(health <=0)
-        {
-            eggcontroller.PlayerDeathAnimation();
-           
-        }
+       
         for (int i = 0; i < hearts.Length; i++)
         {
             if(i<health)

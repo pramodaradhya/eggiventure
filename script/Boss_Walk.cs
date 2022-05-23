@@ -10,6 +10,7 @@ public class Boss_Walk : StateMachineBehaviour
     public float speed = 2.5f;
     Boss_Flip boss_Flip;
     public float Attackrange = 3f;
+   
     //private float range = 1f;
     //private Space anonymous;
 
@@ -26,6 +27,7 @@ public class Boss_Walk : StateMachineBehaviour
     override public void OnStateUpdate(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
         boss_Flip.LookAtPlayer();
+       
         Vector2 target = new Vector2(Player.position.x, rbboss.position.y);
         Vector2 newpos = Vector2.MoveTowards(rbboss.position, target, speed * Time.fixedDeltaTime);
         rbboss.MovePosition(newpos);
